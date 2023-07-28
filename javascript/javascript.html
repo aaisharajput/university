@@ -1,0 +1,280 @@
+<html>
+    <title>Find Greatest Number</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/js_file.css">
+    <script src="script.js"></script>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 heading">
+                    JavaScript Program
+                 </div>
+                 <div class="col-12 title">
+                    1. Find Greatest Number
+                 </div>
+                 <div class="col-12 content">
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="text" id="a" class="form-control" placeholder="Enter 1st no."><br>
+                            <input type="text" id="b" class="form-control" placeholder="Enter 2nd no."><br>
+                            <input type="text" id="c" class="form-control" placeholder="Enter 3rd no.">
+                        </div>
+                        <div class="col-6">
+                            <br>
+                            <button class="btn btn-success" onclick="check()">Check</button><br><br>
+                            <input type="text" id="result" class="form-control" placeholder="Result">
+                        </div>
+                    </div>
+                 </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 title">
+                    2. Implement the methods of Math Class
+                </div>
+                <div class="col-12 content">
+                    <div class="row">
+                        <div class="col-6">
+                            <h2>Arithmetic Method</h2>
+                            <script>
+                                document.write("Absolute value of -100= "+"<span style='color: blue;'>"+Math.abs(-100)+"</span>"+"<br>");
+                                document.write("Absolute value of +42= "+"<span style='color: blue;'>"+Math.abs(+42)+"</span>"+"<br>");
+                                document.write("Ceil of 16.01= "+"<span style='color: blue;'>"+Math.ceil(16.01)+"</span>"+"<br>");
+                                document.write("Ceil of -15.01= "+"<span style='color: blue;'>"+Math.ceil(-15.01)+"</span>"+"<br>");
+                                document.write("Floor of 16.01= "+"<span style='color: blue;'>"+Math.floor(16.01)+"</span>"+"<br>");
+                                document.write("Floor of -15.01= "+"<span style='color: blue;'>"+Math.floor(-15.01)+"</span>"+"<br>");
+                                document.write("Round of 3.7= "+"<span style='color: blue;'>"+Math.round(3.7)+"</span>"+"<br>");
+                                document.write("Round of 16.1= "+"<span style='color: blue;'>"+Math.round(16.1)+"</span>"+"<br>");
+                                document.write("Round of 4.5= "+"<span style='color: blue;'>"+Math.round(4.5)+"</span>"+"<br>");
+                                document.write("Exponent of 4= "+"<span style='color: blue;'>"+Math.exp(4)+"</span>"+"<br>");
+                                document.write("Exponent of 6= "+"<span style='color: blue;'>"+Math.exp(6)+"</span>"+"<br>");
+                                document.write("Power of 10^5= "+"<span style='color: blue;'>"+Math.pow(10,5)+"</span>"+"<br>");
+                                document.write("Power of 12^4= "+"<span style='color: blue;'>"+Math.pow(12,4)+"</span>"+"<br>");
+                                document.write("Square root of 25= "+"<span style='color: blue;'>"+Math.sqrt(25)+"</span>"+"<br>");
+                                document.write("Square root of 625= "+"<span style='color: blue;'>"+Math.sqrt(625)+"</span>"+"<br>");
+                                document.write("Minimum b/w  2 and -2= "+"<span style='color: blue;'>"+Math.min(2,-2)+"</span>"+"<br>");
+                                document.write("Minimum b/w  45 and 100= "+"<span style='color: blue;'>"+Math.min(45,100)+"</span>"+"<br>");
+                                document.write("Maximum b/w  2 and -2= "+"<span style='color: blue;'>"+Math.max(2,-2)+"</span>"+"<br>");
+                                document.write("Maximum b/w  45 and 100= "+"<span style='color: blue;'>"+Math.max(45,100)+"</span>"+"<br>");
+                            </script>
+                        </div>
+                        <div class="col-6">
+                            <h2>Trigonometric Function</h2>
+                            <script>
+                                document.write("cos of PI= "+"<span style='color: blue;'>"+Math.cos(Math.PI)+"</span>"+"<br>");
+                                document.write("cos of -1= "+"<span style='color: blue;'>"+Math.cos(-1)+"</span>"+"<br>");
+                                document.write("cos of 0= "+"<span style='color: blue;'>"+Math.cos(0)+"</span>"+"<br>");
+                                document.write("acos of -1= "+"<span style='color: blue;'>"+Math.acos(-1)+"</span>"+"<br>");
+                                document.write("acos of 0= "+"<span style='color: blue;'>"+Math.acos(0)+"</span>"+"<br>");
+                                document.write("acos of 0.5= "+"<span style='color: blue;'>"+Math.acos(0.5)+"</span>"+"<br>");
+                                document.write("sin of PI= "+"<span style='color: blue;'>"+Math.sin(Math.PI)+"</span>"+"<br>");
+                                document.write("sin of -1= "+"<span style='color: blue;'>"+Math.sin(-1)+"</span>"+"<br>");
+                                document.write("sin of 0= "+"<span style='color: blue;'>"+Math.sin(0)+"</span>"+"<br>");
+                                document.write("asin of -1= "+"<span style='color: blue;'>"+Math.asin(-1)+"</span>"+"<br>");
+                                document.write("asin of 0= "+"<span style='color: blue;'>"+Math.asin(0)+"</span>"+"<br>");
+                                document.write("asin of 0.5= "+"<span style='color: blue;'>"+Math.asin(0.5)+"</span>"+"<br>");
+                                document.write("tan of PI= "+"<span style='color: blue;'>"+Math.tan(Math.PI)+"</span>"+"<br>");
+                                document.write("tan of -1= "+"<span style='color: blue;'>"+Math.tan(-1)+"</span>"+"<br>");
+                                document.write("tan of 0= "+"<span style='color: blue;'>"+Math.tan(0)+"</span>"+"<br>");
+                                document.write("cot of PI= "+"<span style='color: blue;'>"+Math.cot(Math.PI)+"</span>"+"<br>");
+                                document.write("cot of -1= "+"<span style='color: blue;'>"+Math.cot(-1)+"</span>"+"<br>");
+                                document.write("cot of 0= "+"<span style='color: blue;'>"+Math.cot(0)+"</span>"+"<br>");
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 title">
+                    3. WAP to find the following:
+                </div>
+                <div class="col-12 content">
+                    <div class="row">
+                        <div class="col-6">
+                            a. List of unique words and their frequency in the paragraph given by the user in textbox.<br>
+                            b. longest unique word.<br>
+                            c. word having highest frequecy.<br><br>
+                            <input type="text" id="txt" class="form-control" placeholder="Write above 500 words"><br>
+                            <button class="btn btn-success" onclick="unique_words('result1','0')">Check</button><br><br>
+                            <textarea rows="10" class="form-control" id="result1"></textarea>
+                        </div>
+                         <div class="col-6">
+                            d. Replace each occurrence of word 'a' (ignore case) by "ComputerScienceDepartmentUniversityofJammu".<br> 
+                                Again find the longest unique word.<br>
+                                word having highest frequecy.<br><br> 
+                            <input type="text" id="replace" class="form-control" placeholder="Enter word to replace with 'a' "><br>
+                            <button class="btn btn-success" onclick="replace_word()">Replace</button><br><br>
+                            <textarea rows="10" class="form-control" id="result2"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 title">
+                    4. WAP having textbox. Perform the following operation:
+                </div>
+                <div class="col-12 content">
+                    <div class="row">
+                        <div class="col-6">
+                            a. Find the list of words containing 'a','p','r' or 's'.<br>
+                            b. Find the list of words beginning with 'a','p','r','o' or 's' (ignore-case and global search).<br>
+                            c. Replace the words containing 'a','p','r' or 's' with 123CSDEPARTMENT.<br><br><br>
+                            <input type="text" id="input_txt" class="form-control" placeholder="Write above 500 words"><br><br>
+                            <button class="btn btn-success" onclick="process()">Find and Replace</button><br><br>
+                            <textarea rows="10" class="form-control" id="result3"></textarea>
+                        </div>
+                        <div class="col-6">
+                            <textarea rows="10" class="form-control" id="result4"></textarea><br>
+                            <textarea rows="10" class="form-control" id="result5"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 title">
+                    5.Input the D.O.B of 10 students. WAP in javascript for following:
+                </div>
+                <div class="col-12 content">
+                    <div class="row">
+                        <div class="col-6">
+                            a. Display the age of a student after clicking on his/her roll no.(1-10).<br>
+                            b. Display the Roll no. of the youngest student.<br>
+                            c. Display the age of students in increase order.<br><br>
+                            <input type="text" class="form-control" placeholder="Roll No.: 1 " id="roll_no" disabled><br>
+                            <input type="date" class="form-control" id="st_dob"><br>
+                            <button class="btn btn-success" onclick="dob()">Submit</button>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-6" id="show">
+                                    
+                                </div>
+                                <div class="col-6" id="show1">
+                                    
+                                </div>
+                                <div class="col"><br>
+                                    <textarea rows="3" class="form-control" id="age_result"></textarea>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 title">
+                    6.Design a Gmail registration form and do validation:
+                </div>
+                <div class="col-12 content">
+                    <div class="row">
+                        <div class="col-6">
+                            <br>
+                            <h5>a. mail should not contain special character except .</h5><br><br><br>
+                            <h5>b. password should contain alphanumeric and atleast 1 special character</h5><br><br><br>
+                            <h5>c. verify confirm password</h5><br><br><br>
+                            <h5>d. fields cannot be empty</h5><br><br><br>
+                        </div>
+                        <div class="col-6">
+                            <span class="logo" style="color: #0040ff">G</span>
+          <span class="logo" style="color: #ff0000">M</span>
+          <span class="logo" style="color: #ffcc00">A</span>
+          <span class="logo" style="color: #0040ff">I</span>
+          <span class="logo" style="color: #00ff00">L</span>
+          <p>Create your Gmail Account</p>
+          <form action="">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-floating mb-3 mt-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fname"
+                    placeholder="Enter First Name"
+                    name="fname"
+                  />
+                  <label for="fname">First Name</label>
+                  <div id="error1" class="hint"></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-floating mb-3 mt-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lname"
+                    placeholder="Enter Last Name"
+                    name="lname"
+                  />
+                  <label for="fname">Last Name</label>
+                  <div id="error2" class="hint"></div>
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="mail"
+                    placeholder="Your Email"
+                  />
+                  <span class="input-group-text">@gmail.com</span>
+                  <div id="error3" class="hint">
+                    &nbsp; You can use letters, numbers and periods
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-floating mb-3 mt-3">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="pass"
+                    placeholder="Enter Password"
+                    name="pass"
+                  />
+                  <label for="fname">Password</label>
+                  <div id="error4" class="hint">
+                    Use 8 or more characters with a mix of letters, numbers and
+                    symbols.
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-floating mb-3 mt-3">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="cpass"
+                    placeholder="Confirm Password"
+                    name="cpass"
+                  />
+                  <label for="fname">Confirm Password</label>
+                  <div id="error5" class="hint"></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  onclick="validate();"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form><br><br><br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

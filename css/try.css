@@ -1,0 +1,148 @@
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+    padding: 0 0;
+    overflow-x: hidden;
+}
+
+.collapse .nav-item{
+    padding: 0 20px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.navbar{
+    padding: 2% 6%;
+}
+
+.p{
+    padding: 0 0;
+    background-color: black;
+}
+
+.p div p{
+    padding: 0 0;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: 400;
+    font-family:'serif;';
+    color: white;
+}
+
+
+.img{
+    margin: 0 0;
+    padding: 5% 5%;
+    background: url(img/images.jpg), linear-gradient(#666666, #666666) no-repeat;
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.img .child{
+    color: white;
+    padding: 5% 2%;
+}
+
+.img .child h1{
+    font-size: 50px;
+    font-family: 'Cambria, Cochin, Georgia, Times, Times New Roman, serif';
+}
+
+.img .child p{
+    font-size: 20px;
+}
+.img .child button{
+   padding: 2% 3%;
+}
+
+.img form label{
+    font-size: 16px;
+}
+
+.img form .form-title{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.img form input{
+    height: 80%;
+    width: 90%;
+}
+.img form textarea{
+    width: 90%;
+}
+.img form{
+    background-color: #1a1a1a;
+    color: #fff;
+    width: 80%;
+    margin-left: 8%;
+    border-radius: 20px;
+    padding: 4% 5%;
+    height: min-content;
+}
+
+.img .form .button-sub{
+    display: flex;
+    justify-content: end;
+    padding-right: 10%;
+    margin-top: 4%;
+}
+
+.img .form button{
+    padding: 2% 5%;
+}
+
+.p1{
+    padding: 0 0;
+}
+
+.p1 div p{
+    padding: 0 0;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 400;
+    font-family:'serif;';
+}
+
+.need div img{
+    width: 80%;
+    height: 40%;
+}
+.need div{
+    padding: 0 4%;
+}
+
+.info div p {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-shadow:1.2px 4px 4px rgb(0 0 0 / 94%);
+    display: flex;
+    justify-content: center;
+}
+
+.info div:first-child,.info div:last-child{
+    background-color: #007741;
+}
+
+.info .div1{
+    background-color: #61b853;
+}
+
+.info div{
+    padding: 2% 0;
+}
+
+.fact div p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+}
+
+.fact div .p1{
+    font-size: 40px;
+}

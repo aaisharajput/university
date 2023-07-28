@@ -1,0 +1,25 @@
+
+.container .row .heading{
+    padding-top: 40px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.container .row .title{
+    padding:50px 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container .btn{
+    font-size: 20px;
+    width: 450px;
+    padding: 5px 12px;
+    margin-left: 10%;
+}
+
+#roll_no{
+    width:40%;
+}

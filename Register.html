@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>IFRAME EXAMPLE</title>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+            div{
+                padding: 10% 10%;
+            }
+            input{
+                width: 240px;
+                height: 30px;
+            }
+
+            button{
+                font-size: 16px;
+                padding:8 20;
+                color: #fff;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            .submit{
+                background-color:#4db8ff;
+            }
+
+            .submit:hover{
+                background-color: #0099ff;
+            }
+
+            .reset{
+                background-color:#ff3333;
+                margin-left: 40px;
+            }
+
+            .reset:hover{
+                background-color: #cc0000;
+            }
+
+            label{
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+     <div>
+        <h1>LOGIN FORM</h1>
+        <br>
+        <form>
+       <label>User Name</label> <input type="text"  required><br><br><br>
+        <label> Password </label><input type="text"  required>  <br><Br><br>
+        <button class="submit" type="submit">Submit</button>  
+        <button class="reset" type="reset">Reset</button>
+        </form>
+     </div>  
+
+     <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    LOGIN
+  </button>
+  
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">LOGIN FORM</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <form>
+        <!-- Modal body -->
+        <div class="modal-body">
+          
+                <label>User Name</label> <input type="text"  required><br><br><br>
+                 <label> Password </label><input type="password"  required>  <br><Br><br>
+                 
+               
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <button class="submit" type="submit">Submit</button>  
+            <button class="reset" type="reset">Reset</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+    </body>
+</html> 

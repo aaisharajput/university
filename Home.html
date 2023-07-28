@@ -1,0 +1,167 @@
+<html>
+    <head>
+        <title>ASSIGNMENT 1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/header_footer.css">
+    </head>
+    <body>  
+        <div class="menu" id="menu">
+            <img src="img/pngwing.com.png" width="100"> 
+            <span class="title">DEPARTMENT OF COMPUTER SCIENCE AND IT </span>
+            <div class="links">
+                <a href="Home.html">HOME</a><a href="list.html"> LIST</a><a href="table.html"> TABLE</a><a href="about.html"> ABOUT</a>
+                <a href="iframe.html"> LOGIN</a>
+            </div>
+        </div>
+
+        <div class="div1">
+        <h1> Assignment will explain you basic tags with examples</h1>
+        <hr>
+        <h2>HTML</h2>
+        <p>HTML stands for Hypertext Markup Language. <br>Hyper Text is the method by which you move around on the web- by clicking on special text called <b>Hyperlinks</b>
+        which bring you to the next page. The fact that it is hyper just means it is not linear.</p>
+        <p>Markup is what HTML tags do to the text inside them. They mark it as a certain type of text.</p>
+        <p>HTML is a language, as it has code-words and syntax like any other language.</p>
+        <strong>HTML is not case-sensitive language.</strong>
+        <h2>Structure of HTML Document</h2>
+        <p>An HTML document should include structure tags, which provide browsers with information about document characteristics.
+            Structure tags identify the version of HTML used, provide introductory information about the document and include the title, among other similar things.<br>
+            All HTML documents should include five structure tags.
+        </p>
+        <pre>
+            &lt;! DOCTYPE HTML&gt;
+            &lt;HTML&gt;
+            &lt;HEAD&gt;
+            &lt;TITLE&gt;&lt;/TITLE&gt;
+            &lt;/HEAD&gt;
+            &lt;BODY&gt;
+                    
+            &lt;/BODY&gt;
+            &lt;/HTML&gt;
+        </pre>
+       <h3>DOCTYPE Tag</h3>
+        <p>This should be the first tag in every HTML document. This tag tells the browser the HTML version with which the document complies. The main part of the 
+            DOCTYPE tag is the DTD element, which tells the browsers that the document complies with a particular HTML version. 
+           <br> &lt;!DOCUMENT HTML PUBLIC"-//W3C//DTD HTML 5.0 FINAL// EN"&gt;<BR>
+               This complies with HTML 5.0 specification. Most browsers ignore this tag while parsing the code. This tag is optional.
+        </p>
+
+        <h3>HTML Tag</h3>
+        <p>This tag comes after the DOCTYPE tag and identifies the document as an HTML document. This tag is optional and even if it is not explicity included,
+            most browsers assume its existence. But it is good practice to include this tag, as some browsers may be confused while handling a document without this tag and may 
+            not display the page at all. All other tags are included within &lt;HTML&gt; and &lt;/HTML&gt; tags.
+        </p>
+
+        <h3>HEAD Tag</h3>
+        <p>This tag contains information about the document, including its title, scripts used, style definitions and document descriptions. The portion enclosed between
+            the &lt;HEAD&gt; and &lt;/HEAD&gt; tags is called the header. The header of a document is where global settings are defined. With the help of HTTP protocol one can also download
+            information given in the header.<br>
+            This technique is used by search engines to find basic information about a page like its title and keywords. Without going through the entire text and wasting time.
+        </p>
+
+        <h3>TITLE Tag</h3>
+        <p>This tag gives an HTML document a title by which it is known to browsers and indexing robots. The title does not appear within the browser window, since it is visible
+            in the browser's title bar. The title is given between the tags &lt;TITLE&gt; and &lt;/TITLE&gt;. Only one title is allowed per page.
+        </p>
+
+        <h3>BODY Tag</h3>
+        <p>This tag encloses all tags, attributes and information that one wants the browser to dispaly. 
+            The BODY element defines the document's body, and is a container for all the visible contents, 
+                such as headings, paragraphs, images, hyperlinks, tables, lists, etc. To use the &lt;BODY&gt; tag, enter it below the closing &lt;/HEAD&gt; tag and above 
+            the closing &lt;/HTML&gt;  tag.
+        </p>
+
+        <h2>HTML TAGS</h2>
+        <h3>HTML Headings</h3>
+          HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.<br>
+        &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading: 
+        <h1>This is heading 1</h1>
+        <h2 style="color:black;padding-top: 0;text-decoration: none;">This is heading 2</h2>
+        <h3>This is heading 3</h3>
+        <h4>This is heading 4</h4>
+        <h5>This is heading 5</h5>
+        <h6>This is heading 6</h6>
+
+        <h2>HTML Paragraph</h2>
+        HTML paragraphs are defined with the &lt;p&gt; tag. A paragraph always starts on a new line, and browsers automatically add 
+        some white space (a margin) before and after a paragraph. It does not preserves the spaces and line breaks.
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+
+        <h2>HTML Links</h2>
+        HTML links are defined with the &lt;a&gt; tag:
+        <a href="https://www.jammuuniversity.ac.in/" target="_blank">This is a link</a>
+        The link's destination is specified in the href attribute. 
+
+        <h2>HTML Images</h2>
+        HTML images are defined with the &lt;img&gt; tag. 
+        The source file (src), alternative text (alt), width, and height are provided as attributes:<br>
+        <img src="img/customer.jpg">
+
+        <h2>Empty HTML Elements</h2>
+        HTML elements with no content are called empty elements.
+        The &lt;br&gt; tag defines a line break, and is an empty element without a closing tag:
+        <p>This is a <br> paragraph with a line break.</p>
+
+        <h2>HTML Horizontal Rules</h2>
+        The &lt;hr&gt; tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+        The &lt;hr&gt; element is used to separate content (or define a change) in an HTML page:
+        <h3>This is heading 3</h3>
+        <p>This is some text.</p>
+        <hr>
+        <h4>This is heading 4</h4>
+        <p>This is some other text.</p>
+        <hr>
+
+        <h2>HTML &lt;pre&gt; Element</h2>
+        The HTML &lt;pre&gt; element defines preformatted text.
+        The text inside a &lt;pre&gt; element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+        <pre>
+            My Bonnie lies over the ocean.
+          
+            My Bonnie lies over the sea.
+          
+            My Bonnie lies over the ocean.
+          
+            Oh, bring back my Bonnie to me.
+          </pre>
+
+          <h2>HTML Comment Tag</h2>
+          You can add comments to your HTML source by using the following syntax:
+          &lt;!-- Write your comments here --&gt;
+          Comments are not displayed by the browser, but they can help document your HTML source code.
+          <!-- Hello, my self HTML -->
+
+          <h2>HTML Text Formatting Tags</h2>
+            &lt;b&gt; - <b>Bold text</b><br>
+            &lt;u&gt; - <u>Underline text</u><br>
+            &lt;strong&gt; - <strong>Important text</strong><br>
+            &lt;i&gt; - <i>Italic text</i><br>
+            &lt;em&gt; - <em>Emphasized text</em><br>
+            &lt;mark&gt; - <mark>Marked text</mark><br>
+            &lt;small&gt; - <small>Smaller text</small><br>
+            &lt;big&gt; - <big>Bigger text</big><br>
+            &lt;del&gt; - <del>Deleted text</del><br>
+            &lt;strike&gt; - <strike>Strike text</strike><br>
+            &lt;cite&gt; - <cite>citation text</cite><br>
+            &lt;ins&gt; - <ins>Inserted text</ins><br>
+            &lt;sub&gt; - Subscript text - X<sub>2</sub><br>
+            &lt;sup&gt; - Superscript text - X<sup>2</sup><br>
+            &lt;samp&gt; -<samp>Sample Output</samp><br>
+            &lt;kbd&gt;- <kbd>Keyboard text</kbd><br>
+            &lt;dfn&gt;- <dfn>Definition</dfn><br>
+            &lt;var&gt; - <var>Variable</var>
+
+           <a href="#menu"><i class="top fa fa-caret-square-o-up"></i></a>  
+        </div>
+
+        <footer>
+        <div class="div1">
+            <h3>Submitted by: Sapna Devi</h3>
+            <h3>Roll No.: 11MCA21</h3>
+            <h3>DEPARTMENT OF COMPUTER SCIENCE AND IT</h3>
+        </div>
+        </footer>
+    </body>
+</html>
